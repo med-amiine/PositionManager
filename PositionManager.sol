@@ -2,12 +2,13 @@
 
 pragma solidity 0.8.18;
 
-import { ERC20 }           from '@openzeppelin/contracts/token/ERC20/ERC20.sol';
-import { IERC20 }          from '@openzeppelin/contracts/token/ERC20/IERC20.sol';
-import { EnumerableSet }   from '@openzeppelin/contracts/utils/structs/EnumerableSet.sol';
-import { Multicall }       from '@openzeppelin/contracts/utils/Multicall.sol';
-import { ReentrancyGuard } from '@openzeppelin/contracts/security/ReentrancyGuard.sol';
-import { SafeERC20 }       from '@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol';
+import { ERC20 }           from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
+import { IERC20 }          from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol";
+import { EnumerableSet }   from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/structs/EnumerableSet.sol";
+import { Multicall }       from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Multicall.sol";
+import { ReentrancyGuard } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol";
+import { SafeERC20 }       from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/utils/SafeERC20.sol";
+
 
 import { IPool }                        from './interfaces/pool/IPool.sol';
 import { IPositionManager }             from './interfaces/position/IPositionManager.sol';
